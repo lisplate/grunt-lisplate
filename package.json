@@ -1,0 +1,39 @@
+{
+  "name": "grunt-lisplate",
+  "description": "Grunt task to run the LisplateJS compiler",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lisplate/grunt-lisplate",
+  "author": {
+    "name": "Matthew Hall",
+    "email": "mdhall@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lisplate/grunt-lisplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisplate/grunt-lisplate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lisplate/grunt-lisplate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "lisplate": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
